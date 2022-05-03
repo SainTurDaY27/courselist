@@ -39,12 +39,12 @@ public class Course {
 	public int getCredits() {
 		return credits;
 	}
-	
+
 	@Override
 	public String toString() {
 		return String.format("%s %s (%d)", courseNumber, title, credits);
 	}
-	
+
 
 	public double getDifficulty() {
 		return difficulty;
@@ -52,5 +52,13 @@ public class Course {
 
 	public void setDifficulty(double difficulty) {
 		this.difficulty = difficulty;
+	}
+
+	public int getId() {
+		return id;
+	}
+
+	public void setId(int id) {
+		this.id = id;
 	}
 }
